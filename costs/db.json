@@ -43,6 +43,28 @@
       "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "6745645",
+      "name": "teste3",
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "budget": "900",
+      "name": "eaeae",
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [

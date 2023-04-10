@@ -33,6 +33,22 @@ function Projects() {
     .catch((err) => console.log(err))
   },[])
 
+  function removeProject(id) {
+    fetch(`http://localhost:5000/projects/${id}`, {
+      method:'DELETE',
+      headers:{
+        'Content-Type': 'application/json'
+      },
+    })
+    .then((resp) => resp.json())
+    .then((data) => {
+      setProjects(projects.filter((project) => project.id !== id))
+      console.log(data)
+    })
+    .catch((err) => console.log(err))
+
+  }
+
   return (
     <div className={styles.project_container}>
       <div className={styles.title_container}>
@@ -44,10 +60,14 @@ function Projects() {
         {projects.length > 0 &&
          projects.map((project) => (
           <ProjectCard 
+          id={project.id}
           name={project.name}
           budget={project.budget}
           category={project.category.name}
-          key={project.id}/>
+          key={project.id}
+          handleRemove={removeProject}
+          />
+          
          ))}
       </Container>
     </div>

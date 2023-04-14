@@ -32,17 +32,6 @@
       "cost": 0,
       "services": [],
       "id": 4
-    },
-    {
-      "name": "teste4",
-      "budget": "109",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

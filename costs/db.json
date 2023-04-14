@@ -1,37 +1,28 @@
 {
   "projects": [
     {
-      "name": "teste1",
-      "budget": "3133",
+      "name": "Desenvolvimento de Site",
+      "budget": "150000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "teste2",
-      "budget": "321654987",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "teste3",
-      "budget": "321654987",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
+      "cost": 7800,
+      "services": [
+        {
+          "name": "Contratar Desenvolvedor Front-End",
+          "description": "Desenvolvedor Front-End Jr.",
+          "cost": "3800",
+          "id": "0c5ba22d-bfd3-4cf9-82ca-c1b7615b8f79"
+        },
+        {
+          "name": "Contratar Desenvolvedor Back-End",
+          "cost": "4000",
+          "description": "Desenvolvedor Back-End Jr.",
+          "id": "a2f7e19f-7477-44af-a779-3b22703cc3ed"
+        }
+      ],
+      "id": 5
     }
   ],
   "categories": [
